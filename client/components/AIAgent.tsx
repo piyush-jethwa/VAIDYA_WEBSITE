@@ -415,14 +415,13 @@ export default function AIAgent() {
                   <div className="relative">
                     <Bot className="h-6 w-6" />
                     <div className="absolute -top-1 -right-1 h-3 w-3 bg-green-400 rounded-full animate-pulse"></div>
-                  </div>
-                  <div>
-                    <CardTitle className="text-lg flex items-center">
-                      <a href="http://localhost:5678/webhook/c2f3f7ac-0144-420c-bfb6-b55aee0cc73d/chat" target="_blank" rel="noopener noreferrer">
-                        VAIDYA AI Assistant
-                      </a>
-                      <Zap className="h-4 w-4 ml-2 animate-pulse" />
-                    </CardTitle>
+                </div>                <div>
+                  <CardTitle className="text-lg flex items-center">
+                    <a href="http://localhost:5678/webhook/c2f3f7ac-0144-420c-bfb6-b55aee0cc73d/chat" target="_blank" rel="noopener noreferrer">
+                      VAIDYA AI Assistant
+                    </a>
+                    <Zap className="h-4 w-4 ml-2 animate-pulse" />
+                  </CardTitle>
                     <p className="text-sm text-purple-100">
                       ⚡ Instant Health Support
                     </p>
