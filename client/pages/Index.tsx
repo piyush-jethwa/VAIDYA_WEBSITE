@@ -31,6 +31,7 @@ import {
   CheckCircle,
   Bot,
   Brain,
+  Building2,
 } from "lucide-react";
 
 export default function Index() {
@@ -136,6 +137,12 @@ export default function Index() {
               </a>
             </div>
             <div className="flex space-x-2">
+              <Link to="/hospital-command-center">
+                <Button variant="outline" size="sm" className="border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white">
+                  <Building2 className="h-4 w-4 mr-1" />
+                  Hospital Command Center
+                </Button>
+              </Link>
               <Link to="/doctor/login">
                 <Button variant="outline" size="sm">
                   Doctor Login
